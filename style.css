@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header{
+background-color: rgb(63, 54, 54);
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+}
+.logo{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3a6cf4;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.logo:hover{
+color: gold;
+}
+.navigation a{
+  text-transform: uppercase;
+  color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover{
+  color: gold;
+}
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(image/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h2 {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h2 span {
+  display: inline-block;
+  color: #92A8D1;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.main h3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 1opx;
+  margin-bottom: 30px;
+}
+.main-bt{
+  color: #fff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.main-bt:hover{
+  background-color: #955251;
+  transform: scale(1.1);
+}
+.social-icons a{
+  color: #fff;
+  font-size: 2.7em;
+  padding-right: 30px;
+}
+.titel{
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  color: #3a6cf4;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.language{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.html:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.css{
+  width: 100px;
+  height: 127px;
+}
+#hover2:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.js{
+  width: 140px;
+  height: 130px;
+}
+#hover3:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.python{
+  width: 135px;
+}
+#hover4:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.php{
+  width: 200px;
+
+}
+#hover5:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.card{
+  background-color: #3f3f3f;
+  width: 15em;
+  box-shadow: 0 5px rgba(1 1 1 15%);
+  border-radius: 20px;
+  padding: 25px;
+  margin: 15px;
+  color:#955251 ;
+
+}
+.card:hover{
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+.icon{
+  color: #3a6cf4;
+  font-size: 3em;
+  text-align: center;
+}
+.info{
+ text-align: center; 
+}
+.info h3{
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 10px;
+}
+.footer{
+  background-color: #000016;
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.footer head{
+  font-size: 1.3em;
+  font-weight: 600;
+
+}
+.footer-head span{
+  color: aqua;
+}
+.footer .social-icons a{
+  font-size: 1.3em;
+  color: purple;
+}
